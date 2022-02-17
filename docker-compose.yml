@@ -17,8 +17,9 @@ services:
       ETHEREUM_JSONRPC_TRACE_URL: http://dev.arkdia.co:8545/
       ETHEREUM_JSONRPC_VARIANT: besu
       LOGO: /images/blocks.svg
-      COIN: "ARK"
-      COIN_NAME: "Arkdia"
+      COIN: ARK
+      COIN_NAME: Arkdia
+      NETWORK: Arkdia
       PORT: 4000
     #volumes:
       #- ./data/images:/opt/app/apps/block_scout_web/assets/static/images/
