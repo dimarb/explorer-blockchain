@@ -13,8 +13,8 @@ services:
     container_name: blockscout
     environment:
       DATABASE_URL: "postgresql://postgres:secret@postgres:5432/poa_dev?ssl=false"
-      ETHEREUM_JSONRPC_HTTP_URL: http://dev.arkdia.co:8545/
-      ETHEREUM_JSONRPC_TRACE_URL: http://dev.arkdia.co:8545/
+      ETHEREUM_JSONRPC_HTTP_URL: http://192.168.0.52:8545/
+      ETHEREUM_JSONRPC_TRACE_URL: http://192.168.0.52:8545/
       ETHEREUM_JSONRPC_VARIANT: besu
       LOGO: /arkdia/arkdia-logo.png
       PORT: 4000
