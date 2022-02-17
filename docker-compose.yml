@@ -16,7 +16,7 @@ services:
       ETHEREUM_JSONRPC_HTTP_URL: http://dev.arkdia.co:8545/
       ETHEREUM_JSONRPC_TRACE_URL: http://dev.arkdia.co:8545/
       ETHEREUM_JSONRPC_VARIANT: besu
-      LOGO: /images/eth.png
+      LOGO: /images/blocks.svg
       PORT: 4000
     #volumes:
       #- ./data/images:/opt/app/apps/block_scout_web/assets/static/images/
