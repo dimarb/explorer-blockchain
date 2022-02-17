@@ -18,8 +18,8 @@ services:
       ETHEREUM_JSONRPC_VARIANT: besu
       LOGO: /images/arkdia-logo.png
       PORT: 4000
-    volumes:
-      - ./data/images:/opt/app/apps/block_scout_web/assets/static/images/
+    #volumes:
+      #- ./data/images:/opt/app/apps/block_scout_web/assets/static/images/
     ports:
       - "4000:4000"
     networks:
